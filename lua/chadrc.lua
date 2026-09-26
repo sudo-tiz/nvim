@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "matugen",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -20,5 +20,8 @@ M.base46 = {
 --          lazyload = false
 --      }
 -- }
-
+M.cheatsheet = {
+	theme = "grid", -- simple/grid
+	excluded_groups = {}, -- can add group name or with mode
+}
 return M

@@ -1,7 +1,6 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -32,13 +31,6 @@ return {
       },
     },
   },
-
-{
-  'RRethy/base16-nvim',
-  config = function()
-    require('matugen').setup()
-  end,
-},
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
