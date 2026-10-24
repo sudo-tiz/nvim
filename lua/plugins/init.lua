@@ -11,6 +11,17 @@ return {
     end,
   },
 
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = {
+      on_attach = function(bufnr)
+        local api = require "nvim-tree.api"
+        api.config.mappings.default_on_attach(bufnr)
+        vim.keymap.set("n", "l", api.node.open.edit, { buffer = bufnr, desc = "nvimtree open" })
+      end,
+    },
+  },
+
   { 
     "windwp/nvim-autopairs",
     enabled = false,
