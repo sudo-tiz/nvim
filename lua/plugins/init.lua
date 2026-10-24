@@ -32,6 +32,13 @@ return {
     },
   },
 
+  {
+    "lervag/vimtex",
+    ft = { "tex" },
+    init = require("configs.vimtex").init,
+    keys = require("configs.vimtex").keys,
+  },
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
