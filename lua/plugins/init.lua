@@ -18,6 +18,7 @@ return {
         local api = require "nvim-tree.api"
         api.config.mappings.default_on_attach(bufnr)
         vim.keymap.set("n", "l", api.node.open.edit, { buffer = bufnr, desc = "nvimtree open" })
+        vim.keymap.set("n", "h", api.node.navigate.parent_close, { buffer = bufnr, desc = "nvimtree close parent" })
       end,
     },
   },
