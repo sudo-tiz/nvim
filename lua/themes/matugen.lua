@@ -19,7 +19,7 @@ M.base_16 = {
   base0C = '#c1e996',
   base0D = '#87abf8',
   base0E = '#af89f6',
-  base0F = '#b20928',
+  base0F = '#5c3645',
 }
 
 M.base_30 = {
@@ -40,8 +40,8 @@ M.base_30 = {
   white = '#9aa5ce',
   -- accents (mêmes rôles que base_16)
   red = '#f7768e',
-  baby_pink = '#b20928',
-  pink = '#b20928',
+  baby_pink = '#5c3645',
+  pink = '#5c3645',
   orange = '#9ece6a',
   teal = '#c1e996',
   yellow = '#bb9af7',
